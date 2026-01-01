@@ -1,6 +1,5 @@
 
-FROM --platform=linux/x86_64 node:18.15.0-slim
-
+FROM node:18.15.0-slim
 RUN apt-get update && \
     apt-get install -y locales git procps vim tmux curl
 RUN locale-gen ja_JP.UTF-8
