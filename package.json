@@ -8,5 +8,9 @@
     "test": "node test.js"
   },
   "repository": "https://github.com/11kazu13/nn-chat.git",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "http-auth": "4.2.0",
+    "pug": "3.0.2"
+  }
 }
